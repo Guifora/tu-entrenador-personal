@@ -13,10 +13,9 @@
 <div class="container mt-5">
     <!-- Estilo para el mensaje de bienvenida -->
     <div id="bienvenida" class="mb-4">
-        <!-- Aquí se mostrará el mensaje de bienvenida -->
+        ¿Qué entrenamiento quieres realizar?
     </div>
 
-    <h2 class="mb-4 text-center">Seleccionar Entrenamiento</h2>
     <p id="diaSeleccionado" class="text-center"></p>
 
     <!-- Formulario para seleccionar parte del cuerpo y duración -->
@@ -31,14 +30,11 @@
     </div>
 
     <div class="mb-3">
-        <label class="form-label">Duración</label>
-        <select id="duracion" class="form-select">
-            <option value="15">15 min</option>
-            <option value="30">30 min</option>
-            <option value="45">45 min</option>
-            <option value="60">1 hora</option>
-            <option value="90">1 hora y media</option>
-        </select>
+        <label class="form-label">Duración (minutos)</label>
+        <input type="number" id="duracion" class="form-control" min="15" max="120" step="5" value="30">
+        <div id="errorDuracion" class="text-danger mt-2" style="display: none;">
+            ⚠️ La duración debe estar entre 15 y 120 minutos.
+        </div>
     </div>
 
     <button id="buscarEntrenamiento" class="btn btn-primary w-100 mb-4">Buscar Entrenamiento</button>
@@ -47,7 +43,20 @@
     <div id="opcionesEntrenamiento" class="mt-4"></div>
 </div>
 
+<script>
+    document.getElementById("buscarEntrenamiento").addEventListener("click", function() {
+        let duracion = document.getElementById("duracion").value;
+        let errorMensaje = document.getElementById("errorDuracion");
+
+        if (duracion < 15 || duracion > 120) {
+            errorMensaje.style.display = "block"; // Muestra el mensaje de error
+        } else {
+            errorMensaje.style.display = "none"; // Oculta el mensaje si la duración es válida
+            // Aquí puedes continuar con la lógica para buscar entrenamientos
+            console.log("Buscando entrenamientos para " + duracion + " minutos.");
+        }
+    });
+</script>
 <script src="scripts/seleccion.js"></script>
 </body>
 </html>
-

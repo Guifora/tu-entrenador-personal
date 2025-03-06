@@ -5,7 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("buscarEntrenamiento").addEventListener("click", function () {
         const parteCuerpo = document.getElementById("parteCuerpo").value;
-        const duracion = document.getElementById("duracion").value;
+        const duracion = parseInt(document.getElementById("duracion").value);
+        const errorMensaje = document.getElementById("errorDuracion");
+
+        // Validación: Duración entre 15 y 120 minutos
+        if (isNaN(duracion) || duracion < 15 || duracion > 120) {
+            errorMensaje.style.display = "block";
+            return; // Detiene la ejecución si el valor es incorrecto
+        } else {
+            errorMensaje.style.display = "none";
+        }
 
         // Simulación de llamada a una API (esto se reemplazará con una real)
         const entrenamientos = [
