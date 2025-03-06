@@ -1,0 +1,45 @@
+/* Estilo para el fondo de la ventana de selección */
+body {
+    background-color: #f1f1f1; /* Fondo gris claro como en el calendario */
+    font-family: 'Arial', sans-serif; /* Fuente moderna */
+}
+
+/* Estilo para el contenedor de la selección */
+.container {
+    margin-top: 30px;
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los títulos */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Títulos con color oscuro */
+    text-align: center; /* Centrar el título */
+}
+
+/* Estilo para los botones */
+button {
+    font-weight: bold;
+}
+
+/* Estilo para el formulario */
+input, select {
+    margin-bottom: 10px;
+}
+
+/* Estilo para los botones */
+.btn {
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto hover en botones */
+.btn:hover {
+    transform: scale(1.05); /* Botones más grandes cuando el mouse pasa por encima */
+    cursor: pointer;
+}
+
