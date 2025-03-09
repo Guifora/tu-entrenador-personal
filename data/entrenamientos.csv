@@ -1,0 +1,205 @@
+Categoria,Ejercicio,Intensidad,Equipo_Requerido,Grupo_Muscular_Primario,Grupo_Muscular_Secundario,Dificultad,Duracion_Estimada_x_Set(min),Quemado_Calorico_x_Minuto,Impacto,Descripcion_Corta,Alternativas_Equipo,Tipo_Ejercicio,Sets_Recomendados,Reps_Recomendadas,Requerimiento_Movilidad,Estabilidad_Requerida
+Tren Superior,Flexiones,Media,Ninguno,Pectoral,Triceps,Principiante,2,4.5,1,"Flexión clásica de brazos en suelo",Mochila cargada,Strength,3,12-15,Baja,Media
+Tren Superior,Fondos de tríceps en banco,Media,Banco/Silla,Triceps,Deltoides,Intermedio,3,3.8,2,"Fondos usando banco para tríceps",Silla resistente,Strength,4,8-12,Media,Alta
+Tren Superior,Press de hombros con mochila,Alta,Mochila,Deltoides,Trapecio,Avanzado,4,5.2,2,"Press overhead con mochila cargada",Garrafas de agua,Strength,5,6-8,Alta,Alta
+Tren Superior,Elevaciones laterales con botellas,Media,Botellas de agua,Deltoides,Trapecio,Intermedio,3,3.5,3,"Elevaciones laterales con peso improvisado",Mancuernas,Strength,4,10-12,Media,Media
+Tren Superior,Flexiones diamante,Alta,Ninguno,Triceps,Pectoral,Intermedio,3,4.8,1,"Flexiones con manos en forma de diamante",Ninguno,Strength,3,8-10,Media,Alta
+Tren Superior,Flexiones declinadas,Alta,Banco/Silla,Pectoral,Triceps,Avanzado,4,5.0,1,"Flexiones con pies elevados en banco",Escalón,Strength,4,6-8,Alta,Alta
+Tren Superior,Flexiones inclinadas,Baja,Banco/Silla,Pectoral,Triceps,Principiante,2,3.0,3,"Flexiones con manos elevadas en banco",Muro,Strength,3,12-15,Baja,Baja
+Tren Superior,Flexiones explosivas,Alta,Ninguno,Pectoral,Triceps,Avanzado,5,6.5,1,"Flexiones con impulso para despegar manos",Ninguno,Plyometric,4,5-8,Alta,Alta
+Tren Superior,Flexiones con palmada,Alta,Ninguno,Pectoral,Triceps,Avanzado,5,7.0,1,"Flexiones explosivas con palmada en aire",Ninguno,Plyometric,4,4-6,Alta,Alta
+Tren Superior,Flexiones hindú,Alta,Ninguno,Pectoral,Deltoides,Avanzado,4,5.5,2,"Flexión con rotación corporal y arqueo",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Flexiones pike,Media,Ninguno,Deltoides,Triceps,Intermedio,3,4.2,2,"Flexión en posición de pike (cadera elevada)",Ninguno,Strength,4,8-10,Media,Alta
+Tren Superior,Flexiones pseudo planche,Alta,Ninguno,Pectoral,Deltoides,Avanzado,5,6.0,1,"Flexiones con manos cerca de la cadera",Ninguno,Strength,3,5-7,Alta,Alta
+Tren Superior,Fondos en suelo,Media,Ninguno,Triceps,Deltoides,Intermedio,3,4.0,2,"Fondos de tríceps en suelo",Banco,Strength,4,10-12,Media,Alta
+Tren Superior,Flexiones espartanas,Alta,Ninguno,Pectoral,Triceps,Avanzado,4,5.8,1,"Flexiones alternando posición de manos",Ninguno,Strength,3,6-8,Alta,Media
+Tren Superior,Flexiones de arquero,Alta,Ninguno,Pectoral,Oblicuos,Avanzado,4,5.5,1,"Flexiones con desplazamiento lateral de brazos",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Plancha alta con toque de hombros,Media,Ninguno,Deltoides,Abdomen,Intermedio,2,3.5,3,"Plancha alta alternando toque de hombros",Ninguno,Isometrico,3,10-12 por lado,Baja,Alta
+Tren Superior,Remo con toalla en puerta,Media,Toalla/Puerta,Dorsales,Bíceps,Intermedio,4,4.5,2,"Remo horizontal usando toalla en puerta",Cuerda,Strength,4,8-10,Media,Media
+Tren Superior,Aperturas con botellas,Media,Botellas de agua,Pectoral,Deltoides,Intermedio,3,3.8,3,"Aperturas pectorales con peso improvisado",Mancuernas,Strength,4,12-15,Baja,Baja
+Tren Superior,Press Arnold con botellas,Alta,Botellas de agua,Deltoides,Triceps,Avanzado,4,5.5,2,"Press de hombros con rotación (Arnold)",Mancuernas,Strength,4,6-8,Alta,Alta
+Tren Superior,Curl de bíceps con mochila,Media,Mochila,Bíceps,Antebrazo,Principiante,3,3.2,3,"Curl de bíceps usando mochila como peso",Garrafas,Strength,3,12-15,Baja,Baja
+Tren Superior,Flexiones en pared,Baja,Ninguno,Pectoral,Triceps,Principiante,2,2.0,3,"Flexiones asistidas contra la pared",Ninguno,Strength,3,15-20,Baja,Baja
+Tren Superior,Pino en pared,Alta,Pared,Deltoides,Trapecio,Avanzado,5,6.5,1,"Posición de pino apoyado en pared",Ninguno,Isometrico,3,20-30s,Alta,Alta
+Tren Superior,Plancha de antebrazos,Baja,Ninguno,Abdomen,Full Body,Principiante,2,2.5,3,"Plancha isométrica en antebrazos",Ninguno,Isometrico,3,30-60s,Baja,Alta
+Tren Superior,Remo invertido en mesa,Media,Mesa,Dorsales,Bíceps,Intermedio,3,4.0,2,"Remo invertido usando borde de mesa",Barra,Strength,4,8-10,Media,Alta
+Tren Superior,Flexiones con toalla en puerta,Media,Toalla/Puerta,Pectoral,Triceps,Intermedio,3,4.2,2,"Flexiones con agarre en toalla para inestabilidad",Ninguno,Strength,4,8-12,Media,Alta
+Tren Superior,Flexiones de arquero inclinadas,Alta,Banco/Silla,Pectoral,Oblicuos,Avanzado,4,5.7,1,"Flexiones de arquero con torso inclinado",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Flexiones superman,Alta,Ninguno,Pectoral,Glúteos,Avanzado,5,6.8,1,"Flexión con elevación simultánea de brazo y pierna",Ninguno,Strength,3,5-7,Alta,Alta
+Tren Superior,Press militar con mochila,Alta,Mochila,Deltoides,Trapecio,Avanzado,4,5.5,2,"Press militar vertical con mochila",Garrafas,Strength,4,6-8,Alta,Alta
+Tren Superior,Flexiones con peso en espalda,Alta,Mochila,Pectoral,Triceps,Avanzado,4,5.8,1,"Flexiones con peso adicional en espalda",Chaleco lastrado,Strength,3,6-8,Alta,Alta
+Tren Superior,Extensiones de tríceps en silla,Media,Silla,Triceps,Ninguno,Intermedio,3,3.5,2,"Extensiones de tríceps usando silla",Banco,Strength,4,10-12,Media,Media
+Tren Superior,Rotaciones externas de hombro,Baja,Botellas de agua,Rotadores del hombro,Ninguno,Principiante,2,2.0,3,"Rotaciones externas para salud articular",Banda elástica,Rehabilitacion,3,15-20,Baja,Baja
+Tren Superior,Flexiones en barra baja,Alta,Barra baja,Pectoral,Dorsales,Avanzado,4,5.5,1,"Flexiones en barra baja (horizontal)",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Plancha alta con elevación de brazo,Media,Ninguno,Abdomen,Deltoides,Intermedio,3,4.0,2,"Plancha alta alternando elevación de brazos",Ninguno,Isometrico,3,10-12 por lado,Media,Alta
+Tren Superior,Remo en anillas improvisadas,Alta,Toalla/Anillas,Dorsales,Bíceps,Avanzado,4,5.2,1,"Remo con anillas improvisadas (toallas)",Barra,Strength,4,6-8,Alta,Alta
+Tren Superior,Fondos de tríceps en suelo,Media,Ninguno,Triceps,Deltoides,Intermedio,3,4.0,2,"Fondos de tríceps en suelo (sin banco)",Banco,Strength,4,10-12,Media,Alta
+Tren Superior,Flexiones con cambio de apoyo,Alta,Ninguno,Pectoral,Triceps,Avanzado,4,5.5,1,"Flexiones alternando manos en diferentes alturas",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Flexiones diamante declinadas,Alta,Banco/Silla,Triceps,Pectoral,Avanzado,5,6.2,1,"Flexiones diamante con pies elevados",Escalón,Strength,3,5-7,Alta,Alta
+Tren Superior,Flexiones inclinadas con carga,Alta,Mochila,Pectoral,Triceps,Avanzado,4,5.8,1,"Flexiones inclinadas con peso en espalda",Chaleco lastrado,Strength,4,6-8,Alta,Alta
+Tren Superior,Encogimientos escapulares en barra,Media,Barra,Trapecio,Ninguno,Intermedio,3,3.5,3,"Encogimientos de hombros colgado en barra",Ninguno,Strength,4,12-15,Baja,Media
+Tren Superior,Encogimientos de hombros con garrafas,Media,Garrafas,Trapecio,Ninguno,Principiante,2,3.0,3,"Encogimientos de hombros con peso",Mancuernas,Strength,3,15-20,Baja,Baja
+Tren Superior,Elevaciones frontales con botellas,Media,Botellas de agua,Deltoides,Ninguno,Intermedio,3,3.8,3,"Elevaciones frontales con peso improvisado",Mancuernas,Strength,4,10-12,Baja,Baja
+Tren Superior,Extensiones de tríceps en suelo,Media,Ninguno,Triceps,Ninguno,Intermedio,3,3.5,2,"Extensiones de tríceps en posición supina",Banco,Strength,4,10-12,Media,Media
+Tren Superior,Remo en anillas improvisadas,Alta,Toalla/Anillas,Dorsales,Bíceps,Avanzado,4,5.2,1,"Remo con anillas improvisadas (toallas)",Barra,Strength,4,6-8,Alta,Alta
+Tren Superior,Flexiones con desplazamiento lateral,Media,Ninguno,Pectoral,Oblicuos,Intermedio,3,4.5,2,"Flexiones con desplazamiento lateral alternado",Ninguno,Strength,4,8-10,Media,Media
+Tren Superior,Plancha alta con elevación de pierna,Media,Ninguno,Abdomen,Glúteos,Intermedio,3,4.0,2,"Plancha alta alternando elevación de piernas",Ninguno,Isometrico,3,10-12 por lado,Media,Alta
+Tren Superior,Press con garrafas,Alta,Garrafas,Deltoides,Triceps,Avanzado,4,5.5,2,"Press de hombros con garrafas llenas",Mancuernas,Strength,4,6-8,Alta,Alta
+Tren Superior,Curl martillo con botellas,Media,Botellas de agua,Bíceps,Antebrazo,Intermedio,3,3.5,3,"Curl martillo con botellas como peso",Mancuernas,Strength,4,10-12,Baja,Baja
+Tren Superior,Plancha con toque de hombros,Media,Ninguno,Abdomen,Deltoides,Intermedio,2,3.5,3,"Plancha alta alternando toque de hombros",Ninguno,Isometrico,3,10-12 por lado,Baja,Alta
+Tren Superior,Flexiones de arquero,Alta,Ninguno,Pectoral,Oblicuos,Avanzado,4,5.5,1,"Flexiones con desplazamiento lateral de brazos",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Superior,Flexiones pseudo planche inclinadas,Alta,Banco/Silla,Pectoral,Deltoides,Avanzado,5,6.0,1,"Flexiones pseudo planche con torso inclinado",Ninguno,Strength,3,5-7,Alta,Alta
+Tren Inferior,Sentadillas,Media,Ninguno,Cuádriceps,Glúteos,Principiante,3,5.0,1,"Sentadilla clásica con peso corporal",Mochila cargada,Strength,4,15-20,Baja,Media
+Tren Inferior,Zancadas,Media,Ninguno,Cuádriceps,Glúteos,Intermedio,3,5.5,1,"Zancadas alternadas con peso corporal",Mochila cargada,Strength,4,10-12 por pierna,Media,Media
+Tren Inferior,Puente de glúteos,Baja,Ninguno,Glúteos,Isquiotibiales,Principiante,2,3.0,3,"Elevación de cadera en suelo",Mochila en pelvis,Strength,3,15-20,Baja,Baja
+Tren Inferior,Elevación de talones,Media,Ninguno,Gemelos,Ninguno,Principiante,2,2.5,3,"Elevación de talones de pie",Mochila cargada,Strength,4,20-25,Baja,Baja
+Tren Inferior,Sentadilla búlgara,Alta,Banco/Silla,Cuádriceps,Glúteos,Avanzado,4,6.0,1,"Sentadilla unilateral con pierna trasera elevada",Ninguno,Strength,3,8-10 por pierna,Alta,Alta
+Tren Inferior,Peso muerto con mochila,Alta,Mochila,Isquiotibiales,Glúteos,Intermedio,4,5.8,2,"Peso muerto rumano con mochila",Garrafas,Strength,4,8-12,Media,Alta
+Tren Inferior,Pistol squat,Alta,Ninguno,Cuádriceps,Isquiotibiales,Avanzado,5,7.0,1,"Sentadilla unilateral a una pierna",Barra de soporte,Strength,3,5-8 por pierna,Alta,Alta
+Tren Inferior,Step-up en silla,Media,Silla,Cuádriceps,Glúteos,Intermedio,3,4.5,2,"Step-up usando silla como plataforma",Escalón,Strength,4,10-12 por pierna,Media,Media
+Tren Inferior,Saltos en sentadilla,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,8.0,1,"Saltos explosivos desde posición de sentadilla",Ninguno,Plyometric,4,10-15,Alta,Media
+Tren Inferior,Sentadilla sumo,Media,Ninguno,Glúteos,Aductores,Intermedio,3,5.2,1,"Sentadilla con piernas abiertas y pies hacia afuera",Mochila cargada,Strength,4,12-15,Media,Media
+Tren Inferior,Patada de glúteo,Baja,Ninguno,Glúteos,Isquiotibiales,Principiante,2,3.0,3,"Patada hacia atrás en cuadrupedia",Ninguno,Strength,3,15-20 por pierna,Baja,Baja
+Tren Inferior,Hip thrust con mochila,Alta,Mochila,Glúteos,Isquiotibiales,Intermedio,4,5.5,2,"Elevación de cadera con peso en pelvis",Garrafas,Strength,4,10-12,Media,Alta
+Tren Inferior,Isométrico en pared,Baja,Pared,Cuádriceps,Glúteos,Principiante,2,2.0,3,"Sentadilla isométrica apoyada en pared",Ninguno,Isometrico,3,30-60s,Baja,Media
+Tren Inferior,Desplantes laterales,Media,Ninguno,Aductores,Glúteos,Intermedio,3,5.0,2,"Zancadas laterales con peso corporal",Mochila cargada,Strength,4,10-12 por lado,Media,Media
+Tren Inferior,Elevación de piernas acostado,Baja,Ninguno,Abdomen,Cuádriceps,Principiante,2,2.5,3,"Elevación de piernas rectas en suelo",Ninguno,Strength,3,15-20,Baja,Baja
+Tren Inferior,Saltos a una pierna,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,7.5,1,"Saltos unilaterales explosivos",Ninguno,Plyometric,4,8-10 por pierna,Alta,Alta
+Tren Inferior,Sentadillas isométricas,Media,Ninguno,Cuádriceps,Glúteos,Intermedio,3,4.0,2,"Sentadilla estática mantenida",Ninguno,Isometrico,3,30-60s,Media,Alta
+Tren Inferior,Extensión de cadera en suelo,Baja,Ninguno,Glúteos,Isquiotibiales,Principiante,2,2.5,3,"Extensión de cadera en cuadrupedia",Ninguno,Strength,3,15-20 por pierna,Baja,Baja
+Tren Inferior,Elevaciones de talón a una pierna,Media,Ninguno,Gemelos,Ninguno,Intermedio,3,3.5,3,"Elevación de talón unilateral",Mochila cargada,Strength,4,15-20 por pierna,Baja,Baja
+Tren Inferior,Saltos al cajón improvisado,Alta,Silla/Banco,Cuádriceps,Glúteos,Avanzado,5,7.8,1,"Saltos pliométricos a cajón improvisado",Escalón,Plyometric,4,8-10,Alta,Alta
+Tren Inferior,Escaleras con peso,Media,Mochila,Cuádriceps,Glúteos,Intermedio,4,6.5,2,"Subida de escaleras con peso añadido",Garrafas,Cardio-Strength,3,10-15 minutos,Media,Media
+Tren Inferior,Buenos días con mochila,Alta,Mochila,Isquiotibiales,Espalda baja,Avanzado,4,5.5,2,"Flexión de cadera con peso en espalda",Garrafas,Strength,4,8-10,Alta,Alta
+Tren Inferior,Saltos pliométricos,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,8.5,1,"Saltos explosivos en varias direcciones",Ninguno,Plyometric,4,10-15,Alta,Media
+Tren Inferior,Saltos de tijera,Alta,Ninguno,Cuádriceps,Glúteos,Intermedio,4,7.0,1,"Saltos con apertura de piernas y brazos",Ninguno,Cardio,3,20-30,Media,Media
+Tren Inferior,Marcha en puntas de pie,Baja,Ninguno,Gemelos,Ninguno,Principiante,2,2.0,3,"Caminata en puntillas para fortalecer gemelos",Ninguno,Strength,3,1-2 minutos,Baja,Baja
+Tren Inferior,Sentadillas con salto explosivo,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,8.2,1,"Sentadilla con salto vertical explosivo",Ninguno,Plyometric,4,10-12,Alta,Alta
+Tren Inferior,Desplantes con salto,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,8.5,1,"Zancadas alternadas con salto explosivo",Ninguno,Plyometric,4,8-10 por pierna,Alta,Alta
+Tren Inferior,Caminata en sentadilla,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,4,7.5,1,"Caminata en posición de sentadilla baja",Ninguno,Strength,3,10-15 pasos,Alta,Alta
+Tren Inferior,Peso muerto rumano con mochila,Alta,Mochila,Isquiotibiales,Glúteos,Avanzado,4,6.0,2,"Peso muerto con énfasis en isquiotibiales",Garrafas,Strength,4,8-10,Alta,Alta
+Tren Inferior,Isométrico en sentadilla profunda,Media,Ninguno,Cuádriceps,Glúteos,Intermedio,3,4.5,2,"Sentadilla profunda estática mantenida",Ninguno,Isometrico,3,30-60s,Media,Alta
+Tren Inferior,Patadas laterales,Baja,Ninguno,Aductores,Glúteos,Principiante,2,2.5,3,"Patadas laterales en cuadrupedia",Ninguno,Strength,3,15-20 por pierna,Baja,Baja
+Tren Inferior,Sentadilla Jefferson improvisada,Alta,Mochila,Cuádriceps,Glúteos,Avanzado,5,7.0,1,"Sentadilla Jefferson con peso improvisado",Garrafas,Strength,3,6-8,Alta,Alta
+Tren Inferior,Subida de escalón con mochila,Media,Mochila,Cuádriceps,Glúteos,Intermedio,4,6.0,2,"Step-up con mochila como peso adicional",Escalón,Strength,4,10-12 por pierna,Media,Media
+Tren Inferior,Flexión de rodilla en suelo,Baja,Ninguno,Isquiotibiales,Glúteos,Principiante,2,2.0,3,"Flexión de rodilla en posición de gateo",Ninguno,Strength,3,15-20 por pierna,Baja,Baja
+Tren Inferior,Extensión de cadera con resistencia,Alta,Toalla/Mochila,Glúteos,Isquiotibiales,Avanzado,4,6.5,2,"Extensión de cadera con resistencia en tobillo",Banda elástica,Strength,4,10-12 por pierna,Alta,Alta
+Tren Inferior,Sentadilla con desplazamiento lateral,Media,Ninguno,Aductores,Glúteos,Intermedio,3,5.5,2,"Sentadilla lateral con paso a un lado",Mochila cargada,Strength,4,10-12 por lado,Media,Media
+Tren Inferior,Prensa improvisada con mochila,Alta,Mochila,Cuádriceps,Glúteos,Avanzado,4,6.2,1,"Prensa de piernas improvisada con mochila",Garrafas,Strength,4,8-10,Alta,Alta
+Tren Inferior,Puente de glúteos unilateral,Media,Ninguno,Glúteos,Isquiotibiales,Intermedio,3,4.5,2,"Elevación de cadera unilateral en suelo",Ninguno,Strength,4,10-12 por pierna,Media,Alta
+Tren Inferior,Peso muerto sumo con mochila,Alta,Mochila,Aductores,Glúteos,Avanzado,4,6.5,1,"Peso muerto sumo con piernas abiertas",Garrafas,Strength,4,8-10,Alta,Alta
+Tren Inferior,Saltos a una pierna desde altura,Alta,Banco/Silla,Cuádriceps,Glúteos,Avanzado,5,8.8,1,"Saltos pliométricos unilaterales desde altura",Escalón,Plyometric,4,6-8 por pierna,Alta,Alta
+Tren Inferior,Balanceos de pierna,Baja,Ninguno,Glúteos,Isquiotibiales,Principiante,2,2.0,3,"Balanceos de pierna hacia adelante/atrás",Ninguno,Strength,3,15-20 por pierna,Baja,Baja
+Tren Inferior,Zancadas inversas,Media,Ninguno,Cuádriceps,Glúteos,Intermedio,3,5.0,2,"Zancadas hacia atrás con peso corporal",Mochila cargada,Strength,4,10-12 por pierna,Media,Media
+Tren Inferior,Marcha de rodillas arriba,Media,Ninguno,Cuádriceps,Glúteos,Intermedio,3,6.0,2,"Marcha elevando rodillas al pecho",Ninguno,Cardio,3,1-2 minutos,Media,Media
+Tren Inferior,Sentadilla Hindu,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,7.2,1,"Sentadilla profunda con postura de yoga",Ninguno,Strength,3,6-8,Alta,Alta
+Tren Inferior,Saltos de rana,Alta,Ninguno,Cuádriceps,Glúteos,Avanzado,5,8.5,1,"Saltos pliométricos estilo rana",Ninguno,Plyometric,4,10-12,Alta,Media
+Tren Inferior,Extensión de cadera en fitball improvisado,Media,Toalla/Cojín,Glúteos,Isquiotibiales,Intermedio,3,4.5,2,"Extensión de cadera usando cojín como apoyo",Fitball,Strength,4,12-15 por pierna,Media,Alta
+Tren Inferior,Saltos con cuerda,Alta,Cuerda,Cuádriceps,Glúteos,Intermedio,5,9.0,1,"Saltar cuerda a alta velocidad",Ninguno,Cardio,3,1-2 minutos,Alta,Media
+Tren Inferior,Patada trasera con resistencia,Alta,Toalla/Mochila,Glúteos,Isquiotibiales,Avanzado,4,6.0,2,"Patadas traseras con resistencia en tobillo",Banda elástica,Strength,4,10-12 por pierna,Alta,Alta
+Tren Inferior,Sentadilla pistol asistida,Alta,Barra/Silla,Cuádriceps,Isquiotibiales,Avanzado,4,7.0,1,"Sentadilla pistol con asistencia de soporte",Ninguno,Strength,3,5-8 por pierna,Alta,Alta
+Tren Inferior,Subida de escalón alternado,Media,Banco/Silla,Cuádriceps,Glúteos,Intermedio,4,6.5,2,"Step-up alternando piernas con peso",Mochila cargada,Strength,4,10-12 por pierna,Media,Media
+Tren Inferior,Saltos en banco,Alta,Banco/Silla,Cuádriceps,Glúteos,Avanzado,5,8.5,1,"Saltos pliométricos subiendo a banco",Escalón,Plyometric,4,8-10,Alta,Alta
+Core,Plancha,Baja,Ninguno,Abdomen,Full Body,Principiante,2,2.0,3,"Posición isométrica en antebrazos",Ninguno,Isometrico,3,30-60s,Baja,Alta
+Core,Plancha lateral,Baja,Ninguno,Oblicuos,Abdomen,Intermedio,2,2.5,3,"Plancha lateral sobre antebrazo",Ninguno,Isometrico,3,20-30s por lado,Baja,Alta
+Core,Crunch abdominal,Baja,Ninguno,Abdomen,Ninguno,Principiante,2,3.0,3,"Crunch clásico en suelo",Ninguno,Strength,3,15-20,Baja,Baja
+Core,Bicicleta abdominal,Media,Ninguno,Abdomen,Oblicuos,Intermedio,3,4.5,2,"Crunch alternando rodilla-codo",Ninguno,Strength,4,20-30 por lado,Media,Media
+Core,Elevación de piernas,Baja,Ninguno,Abdomen,Cuádriceps,Principiante,2,3.2,3,"Elevación de piernas rectas en suelo",Ninguno,Strength,3,12-15,Baja,Baja
+Core,Tijeras,Media,Ninguno,Abdomen,Cuádriceps,Intermedio,3,4.0,2,"Elevación alternada de piernas en tijera",Ninguno,Strength,4,20-30,Baja,Media
+Core,Plancha con toque de hombro,Media,Ninguno,Abdomen,Deltoides,Intermedio,2,3.5,3,"Plancha alta alternando toque de hombros",Ninguno,Isometrico,3,10-12 por lado,Baja,Alta
+Core,Ab wheel improvisado,Media,Toalla/Rueda,Abdomen,Oblicuos,Intermedio,3,4.2,2,"Rodillos abdominales usando toalla",Rueda de abdominales,Strength,4,8-12,Media,Alta
+Core,Mountain climbers,Media,Ninguno,Abdomen,Full Body,Intermedio,4,6.5,2,"Movimiento de escalador en plancha alta",Ninguno,Cardio-Strength,4,20-30 por pierna,Media,Alta
+Core,Rodilla al pecho,Baja,Ninguno,Abdomen,Cuádriceps,Principiante,2,3.0,3,"Rodillas al pecho en posición sentada",Ninguno,Strength,3,15-20,Baja,Baja
+Core,Giros rusos,Media,Ninguno,Oblicuos,Abdomen,Intermedio,3,4.5,2,"Giros de torso con peso en suelo",Mochila cargada,Strength,4,20-30 por lado,Media,Media
+Core,Superman,Baja,Ninguno,Espalda baja,Glúteos,Principiante,2,2.5,3,"Elevación de brazos y piernas en posición prona",Ninguno,Strength,3,15-20,Baja,Baja
+Core,Levantamiento de pelvis,Baja,Ninguno,Glúteos,Abdomen,Principiante,2,3.0,3,"Elevación de pelvis en suelo (puente de glúteos)",Ninguno,Strength,3,15-20,Baja,Baja
+Core,Plancha con levantamiento de pierna,Media,Ninguno,Abdomen,Glúteos,Intermedio,3,4.0,2,"Plancha alta alternando elevación de piernas",Ninguno,Isometrico,3,10-12 por lado,Media,Alta
+Core,Plancha con giro,Media,Ninguno,Oblicuos,Abdomen,Intermedio,3,4.5,2,"Plancha lateral con giro de torso",Ninguno,Strength,4,8-10 por lado,Media,Alta
+Core,Plancha con desplazamiento,Media,Ninguno,Abdomen,Full Body,Intermedio,3,5.0,2,"Plancha alta con desplazamiento lateral",Ninguno,Cardio-Strength,4,10-12 por lado,Media,Alta
+Core,Plancha con elevación de brazo,Media,Ninguno,Abdomen,Deltoides,Intermedio,3,4.2,2,"Plancha alta alternando elevación de brazos",Ninguno,Isometrico,3,10-12 por lado,Media,Alta
+Core,Sit-ups,Media,Ninguno,Abdomen,Ninguno,Intermedio,3,4.0,2,"Sit-ups completos en suelo",Ninguno,Strength,4,12-15,Media,Baja
+Core,V-ups,Alta,Ninguno,Abdomen,Cuádriceps,Avanzado,4,6.0,1,"Elevación simultánea de torso y piernas en V",Ninguno,Strength,3,8-10,Alta,Alta
+Core,Toques a los pies,Media,Ninguno,Abdomen,Cuádriceps,Intermedio,3,4.5,2,"Toques alternados a los pies en posición de V",Ninguno,Strength,4,15-20 por lado,Media,Media
+Core,Crunch con peso,Alta,Mochila,Abdomen,Ninguno,Avanzado,4,5.5,2,"Crunch con peso adicional en pecho",Garrafas,Strength,4,10-12,Alta,Baja
+Core,L-sit en suelo,Alta,Ninguno,Abdomen,Cuádriceps,Avanzado,4,6.5,1,"Posición de L-sit apoyado en manos",Ninguno,Isometrico,3,15-20s,Alta,Alta
+Core,Rollouts en toalla,Alta,Toalla/Rueda,Abdomen,Oblicuos,Avanzado,5,7.0,1,"Ab rollouts usando toalla en suelo",Rueda de abdominales,Strength,3,6-8,Alta,Alta
+Core,Plancha con codos,Baja,Ninguno,Abdomen,Ninguno,Principiante,2,2.0,3,"Plancha isométrica en antebrazos",Ninguno,Isometrico,3,30-60s,Baja,Alta
+Core,Plancha con cambio de apoyo,Media,Ninguno,Abdomen,Full Body,Intermedio,3,4.5,2,"Plancha alta alternando apoyo de manos/antebrazos",Ninguno,Isometrico,4,8-10 por lado,Media,Alta
+Core,Flexión de torso en V,Alta,Ninguno,Abdomen,Cuádriceps,Avanzado,4,6.5,1,"Flexión de torso manteniendo posición de V",Ninguno,Strength,3,8-10,Alta,Alta
+Core,Crunch bicicleta,Media,Ninguno,Abdomen,Oblicuos,Intermedio,3,4.8,2,"Crunch con giro y rodilla al codo opuesto",Ninguno,Strength,4,20-30 por lado,Media,Media
+Core,Giros rusos con peso,Alta,Mochila,Oblicuos,Abdomen,Avanzado,4,6.0,2,"Giros rusos con peso adicional",Garrafas,Strength,4,15-20 por lado,Alta,Media
+Core,Dead bug,Baja,Ninguno,Abdomen,Espalda baja,Principiante,2,3.0,3,"Movimiento alternado de brazos/piernas en suelo",Ninguno,Strength,3,12-15 por lado,Baja,Baja
+Core,Dragon flag,Alta,Banco/Silla,Abdomen,Full Body,Avanzado,5,8.0,1,"Elevación de cuerpo rígido usando banco",Barra,Strength,3,5-8,Alta,Alta
+Core,Plank walk,Media,Ninguno,Abdomen,Full Body,Intermedio,3,5.0,2,"Transición de plancha alta a baja caminando",Ninguno,Strength,4,10-12,Media,Alta
+Core,Levantamiento de torso en banco,Media,Banco/Silla,Abdomen,Espalda baja,Intermedio,3,4.5,2,"Hiperextensiones inversas en banco",Ninguno,Strength,4,12-15,Media,Media
+Core,Elevaciones de pierna suspendido,Alta,Barra,Abdomen,Cuádriceps,Avanzado,4,6.5,1,"Elevaciones de piernas colgado de barra",Ninguno,Strength,3,8-10,Alta,Alta
+Core,Hollow body,Baja,Ninguno,Abdomen,Full Body,Principiante,2,3.0,3,"Posición isométrica de hollow body",Ninguno,Isometrico,3,20-30s,Baja,Alta
+Core,Flutter kicks,Media,Ninguno,Abdomen,Cuádriceps,Intermedio,3,4.5,2,"Patadas rápidas en posición de plancha baja",Ninguno,Strength,4,20-30,Media,Media
+Core,Abdominales con giro,Media,Ninguno,Abdomen,Oblicuos,Intermedio,3,4.8,2,"Crunch con giro de torso al subir",Ninguno,Strength,4,15-20 por lado,Media,Media
+Core,Plank climbers,Media,Ninguno,Abdomen,Full Body,Intermedio,4,6.0,2,"Movimiento de escalador en plancha alta",Ninguno,Cardio-Strength,4,20-30 por pierna,Media,Alta
+Core,Flexión lateral de tronco,Baja,Ninguno,Oblicuos,Abdomen,Principiante,2,2.5,3,"Flexiones laterales de tronco de pie",Mochila cargada,Strength,3,15-20 por lado,Baja,Baja
+Core,Plancha Superman,Media,Ninguno,Espalda baja,Glúteos,Intermedio,3,4.0,2,"Elevación alternada de brazo/pierna en plancha",Ninguno,Isometrico,4,10-12 por lado,Media,Alta
+Core,Plancha isométrica larga,Baja,Ninguno,Abdomen,Full Body,Principiante,3,2.5,3,"Plancha mantenida por tiempo prolongado",Ninguno,Isometrico,3,60-90s,Baja,Alta
+Core,Plancha con toque de rodilla,Media,Ninguno,Abdomen,Full Body,Intermedio,3,4.5,2,"Plancha alta alternando rodilla al codo",Ninguno,Strength,4,10-12 por lado,Media,Alta
+Core,Crunches con giro,Media,Ninguno,Abdomen,Oblicuos,Intermedio,3,4.5,2,"Crunch con rotación hacia cada lado",Ninguno,Strength,4,15-20 por lado,Media,Media
+Core,Levantamiento de piernas con balón,Baja,Balón/Toalla,Abdomen,Cuádriceps,Principiante,2,3.0,3,"Elevación de piernas sujetando balón",Ninguno,Strength,3,12-15,Baja,Baja
+Core,Plancha en banco,Media,Banco/Silla,Abdomen,Ninguno,Intermedio,3,4.0,2,"Plancha alta con apoyo en banco",Ninguno,Isometrico,3,30-60s,Media,Alta
+Core,V-ups con toque de pies,Alta,Ninguno,Abdomen,Cuádriceps,Avanzado,4,6.5,1,"V-ups alternando toque de pies",Ninguno,Strength,3,8-10,Alta,Alta
+Core,Plancha en fitball improvisado,Media,Toalla/Cojín,Abdomen,Full Body,Intermedio,3,4.5,2,"Plancha alta con apoyo en cojín",Fitball,Isometrico,4,20-30s,Media,Alta
+Core,Crunch con piernas en 90°,Media,Ninguno,Abdomen,Cuádriceps,Intermedio,3,4.8,2,"Crunch manteniendo piernas en ángulo recto",Ninguno,Strength,4,12-15,Media,Media
+Core,Plancha con palmada,Alta,Ninguno,Abdomen,Full Body,Avanzado,4,6.5,1,"Plancha con palmada bajo el cuerpo (dinámico)",Ninguno,Plyometric,3,8-10,Alta,Alta
+Core,Superman isométrico,Baja,Ninguno,Espalda baja,Glúteos,Principiante,2,2.0,3,"Superman estático mantenido",Ninguno,Isometrico,3,20-30s,Baja,Baja
+Core,Elevación lateral de tronco,Baja,Ninguno,Oblicuos,Abdomen,Principiante,2,2.5,3,"Flexiones laterales de tronco en suelo",Ninguno,Strength,3,15-20 por lado,Baja,Baja
+Core,Plancha con estiramiento de brazos,Media,Ninguno,Abdomen,Deltoides,Intermedio,3,4.0,2,"Plancha alta alternando estiramiento de brazos",Ninguno,Isometrico,4,8-10 por lado,Media,Alta
+Full Body,Burpees,Alta,Ninguno,Full Body,Cardio,Intermedio,5,8.7,1,"Combinación de salto, flexión y squat jump",Ninguno,Cardio-Strength,4,10-15,Alta,Media
+Full Body,Saltos de caja,Alta,Banco/Silla,Full Body,Glúteos,Avanzado,5,8.5,1,"Saltos pliométricos a banco improvisado",Escalón,Plyometric,4,8-10,Alta,Alta
+Full Body,Escalador,Media,Ninguno,Full Body,Abdomen,Intermedio,4,7.0,2,"Movimiento rápido de rodillas al pecho en plancha",Ninguno,Cardio-Strength,4,20-30 por pierna,Media,Alta
+Full Body,Jumping Jacks,Media,Ninguno,Full Body,Cardio,Principiante,3,6.5,2,"Saltos con apertura de piernas y brazos",Ninguno,Cardio,3,30-50,Media,Media
+Full Body,Salto con rodillas al pecho,Alta,Ninguno,Full Body,Cardio,Avanzado,5,9.0,1,"Saltos elevando rodillas al pecho",Ninguno,Cardio,4,15-20,Alta,Media
+Full Body,Skipping,Media,Ninguno,Full Body,Cardio,Principiante,3,6.0,2,"Carrera estática elevando rodillas",Ninguno,Cardio,3,1-2 minutos,Baja,Media
+Full Body,Bear crawl,Media,Ninguno,Full Body,Abdomen,Intermedio,4,7.5,2,"Gateo en posición de oso (cuadrupedia)",Ninguno,Strength-Cardio,3,10-15 metros,Media,Alta
+Full Body,Thrusters improvisados,Alta,Garrafas,Full Body,Glúteos,Avanzado,5,8.0,1,"Sentadilla + press overhead con garrafas",Mancuernas,Strength-Cardio,4,8-10,Alta,Alta
+Full Body,Shadow boxing,Media,Ninguno,Full Body,Cardio,Intermedio,4,7.8,2,"Boxeo imaginario a alta velocidad",Ninguno,Cardio,3,1-2 minutos,Media,Baja
+Full Body,Mountain climbers con rotación,Alta,Ninguno,Full Body,Oblicuos,Avanzado,5,8.5,1,"Mountain climbers con giro de rodilla al codo",Ninguno,Cardio-Strength,4,15-20 por lado,Alta,Alta
+Full Body,Saltos a la comba,Alta,Cuerda,Full Body,Cardio,Intermedio,5,9.5,1,"Salto de cuerda a alta intensidad",Ninguno,Cardio,3,1-2 minutos,Alta,Media
+Full Body,Sprint en el lugar,Alta,Ninguno,Full Body,Cardio,Avanzado,5,10.0,1,"Carrera estática máxima velocidad",Ninguno,Cardio,3,20-30 segundos,Alta,Media
+Full Body,Dominadas en barra improvisada,Alta,Barra,Dorsales,Bíceps,Avanzado,4,7.0,1,"Dominadas usando barra improvisada",Ninguno,Strength,3,5-8,Alta,Alta
+Full Body,Escalada en cuerda improvisada,Alta,Toalla/Cuerda,Full Body,Dorsales,Avanzado,5,9.0,1,"Escalada de cuerda usando toalla en barra",Cuerda,Strength-Cardio,3,3-5 repeticiones,Alta,Alta
+Full Body,Gateo de cangrejo,Media,Ninguno,Full Body,Hombros,Intermedio,4,7.2,2,"Gateo en posición invertida (cangrejo)",Ninguno,Strength-Cardio,3,10-15 metros,Media,Alta
+Full Body,Step-up con salto,Alta,Banco/Silla,Full Body,Glúteos,Avanzado,5,8.5,1,"Step-up con salto explosivo al subir",Escalón,Plyometric,4,8-10 por pierna,Alta,Alta
+Full Body,Golpes explosivos con saco improvisado,Alta,Saco/Mochila,Full Body,Hombros,Avanzado,5,9.2,1,"Golpes rápidos a saco improvisado",Ninguno,Cardio-Strength,4,20-30 segundos,Alta,Baja
+Full Body,Thrusters con garrafas,Alta,Garrafas,Full Body,Glúteos,Avanzado,5,8.0,1,"Sentadilla + press overhead con garrafas",Mancuernas,Strength-Cardio,4,6-10,Alta,Alta
+Full Body,Desplantes con peso,Alta,Mochila,Full Body,Glúteos,Avanzado,4,7.5,1,"Zancadas con peso en mochila",Garrafas,Strength,4,8-10 por pierna,Alta,Alta
+Full Body,Sentadilla con salto y giro,Alta,Ninguno,Full Body,Oblicuos,Avanzado,5,9.0,1,"Sentadilla con salto + giro de 90°",Ninguno,Plyometric,4,8-10,Alta,Media
+Full Body,Flexiones con salto,Alta,Ninguno,Full Body,Pectoral,Avanzado,5,8.5,1,"Flexiones explosivas con salto al final",Ninguno,Plyometric,4,6-8,Alta,Alta
+Full Body,Plancha con salto,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,8.8,1,"Salto de rana desde posición de plancha",Ninguno,Plyometric,3,8-10,Alta,Alta
+Full Body,Pino con flexión,Alta,Pared,Full Body,Hombros,Avanzado,5,9.5,1,"Flexiones en posición de pino contra pared",Ninguno,Strength,3,3-5,Alta,Alta
+Full Body,Plancha con desplazamiento rápido,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,9.0,1,"Plancha con desplazamientos laterales rápidos",Ninguno,Cardio-Strength,4,10-12,Alta,Alta
+Full Body,Lanzamiento de balón improvisado,Alta,Balón/Mochila,Full Body,Hombros,Avanzado,5,8.5,1,"Lanzamientos explosivos de balón al suelo",Ninguno,Plyometric,4,10-12,Alta,Baja
+Full Body,Elevaciones de piernas con impulso,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,8.2,1,"Elevación de piernas con salto al final",Ninguno,Plyometric,4,10-12,Alta,Alta
+Full Body,Sentadilla con puñetazos,Media,Ninguno,Full Body,Pectoral,Intermedio,4,7.5,2,"Sentadilla + puñetazo alternado",Ninguno,Strength-Cardio,4,12-15,Media,Media
+Full Body,Abdominales explosivos,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,8.5,1,"Crunch con salto al final del movimiento",Ninguno,Plyometric,4,10-12,Alta,Baja
+Full Body,Zancadas dinámicas,Alta,Ninguno,Full Body,Glúteos,Avanzado,5,8.8,1,"Zancadas con salto y cambio de pierna",Ninguno,Plyometric,4,10-12 por pierna,Alta,Media
+Full Body,Saltos de patinador,Alta,Ninguno,Full Body,Glúteos,Avanzado,5,9.2,1,"Saltos laterales imitando patinador de velocidad",Ninguno,Plyometric,4,8-10 por lado,Alta,Media
+Full Body,Plancha con salto lateral,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,9.0,1,"Saltos laterales desde posición de plancha",Ninguno,Plyometric,4,8-10,Alta,Alta
+Full Body,Salto con giro de 180°,Alta,Ninguno,Full Body,Oblicuos,Avanzado,5,9.5,1,"Salto vertical con giro completo",Ninguno,Plyometric,3,6-8,Alta,Media
+Full Body,Carrera con rodillas altas,Alta,Ninguno,Full Body,Cardio,Avanzado,5,10.0,1,"Carrera estática elevando rodillas al máximo",Ninguno,Cardio,3,20-30 segundos,Alta,Media
+Full Body,Flexiones en explosión,Alta,Ninguno,Full Body,Pectoral,Avanzado,5,8.7,1,"Flexiones explosivas con máxima velocidad",Ninguno,Plyometric,4,8-10,Alta,Alta
+Full Body,Sprint con cambios de ritmo,Alta,Ninguno,Full Body,Cardio,Avanzado,5,10.5,1,"Sprints alternando velocidades (HIIT)",Ninguno,Cardio,4,30s rápido + 30s lento,Alta,Media
+Full Body,Escaladores cruzados,Alta,Ninguno,Full Body,Oblicuos,Avanzado,5,9.0,1,"Mountain climbers con rodilla al codo opuesto",Ninguno,Cardio-Strength,4,15-20 por lado,Alta,Alta
+Full Body,Jump squats,Alta,Ninguno,Full Body,Glúteos,Avanzado,5,9.2,1,"Sentadilla con salto explosivo",Ninguno,Plyometric,4,10-12,Alta,Media
+Full Body,Flexiones con salto y cambio de mano,Alta,Ninguno,Full Body,Pectoral,Avanzado,5,9.0,1,"Flexión explosiva con salto y cambio de apoyo",Ninguno,Plyometric,3,6-8,Alta,Alta
+Full Body,Caminata lateral en plancha,Media,Ninguno,Full Body,Abdomen,Intermedio,4,7.5,2,"Desplazamiento lateral en posición de plancha",Ninguno,Strength-Cardio,3,10-12 pasos,Media,Alta
+Full Body,Golpes con mancuernas improvisadas,Alta,Garrafas,Full Body,Hombros,Avanzado,5,8.8,1,"Golpes rápidos con peso en manos",Mancuernas,Strength-Cardio,4,15-20,Alta,Baja
+Full Body,Saltos con peso en mochila,Alta,Mochila,Full Body,Glúteos,Avanzado,5,9.5,1,"Saltos pliométricos con mochila cargada",Chaleco lastrado,Plyometric,3,8-10,Alta,Alta
+Full Body,Flexiones con desplante,Alta,Ninguno,Full Body,Pectoral,Avanzado,5,8.5,1,"Flexión + desplante lateral alternado",Ninguno,Plyometric,4,6-8 por lado,Alta,Alta
+Full Body,Marcha rápida en el sitio,Media,Ninguno,Full Body,Cardio,Principiante,3,6.0,2,"Marcha rápida elevando rodillas",Ninguno,Cardio,3,1-2 minutos,Baja,Media
+Full Body,Saltos laterales con resistencia,Alta,Banda elástica,Full Body,Glúteos,Avanzado,5,9.0,1,"Saltos laterales con banda de resistencia",Ninguno,Plyometric,4,10-12 por lado,Alta,Media
+Full Body,Golpes en saco improvisado,Alta,Saco/Mochila,Full Body,Hombros,Avanzado,5,9.5,1,"Golpes continuos a saco improvisado",Ninguno,Cardio-Strength,4,20-30 segundos,Alta,Baja
+Full Body,Sentadillas con estocada,Alta,Ninguno,Full Body,Glúteos,Avanzado,5,9.2,1,"Combinación de sentadilla + estocada",Ninguno,Plyometric,4,8-10,Alta,Media
+Full Body,Thrusters con mancuernas improvisadas,Alta,Garrafas,Full Body,Glúteos,Avanzado,5,9.0,1,"Thrusters con garrafas como mancuernas",Mancuernas,Strength-Cardio,4,6-10,Alta,Alta
+Full Body,Salto en estrella,Alta,Ninguno,Full Body,Cardio,Avanzado,5,9.5,1,"Salto con apertura de piernas y brazos en estrella",Ninguno,Plyometric,4,10-12,Alta,Media
+Full Body,Plancha con movimientos circulares,Alta,Ninguno,Full Body,Abdomen,Avanzado,5,8.8,1,"Plancha con desplazamiento circular de piernas",Ninguno,Cardio-Strength,4,8-10 por lado,Alta,Alta
+Full Body,Gateo en reversa,Media,Ninguno,Full Body,Abdomen,Intermedio,4,7.2,2,"Gateo hacia atrás en posición de oso",Ninguno,Strength-Cardio,3,10-15 metros,Media,Alta
+Full Body,Burpees,Media,2,Intermedio,2,8.5,Full Body,Cardio
+Full Body,Saltos caja,Alta,3,Avanzado,1,10.0,Full Body,Plyometric

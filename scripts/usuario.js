@@ -1,82 +1,122 @@
-// Función para guardar los datos del usuario en LocalStorage
-function guardarDatosUsuario() {
-    const nombre = document.getElementById('nombre').value;
-    const genero = document.getElementById('genero').value;
-    const altura = document.getElementById('altura').value;
-    const peso = document.getElementById('peso').value;
-
-    // Verificar que todos los campos estén completos
-    if (nombre && genero && altura && peso) {
-        // Crear un objeto con los datos
-        const datosUsuario = {
-            nombre: nombre,
-            genero: genero,
-            altura: parseFloat(altura),
-            peso: parseFloat(peso)
-        };
-
-        // Guardar en LocalStorage
-        localStorage.setItem('usuario', JSON.stringify(datosUsuario));
-
-        alert('Datos guardados correctamente');
-        
-        // Redirigir al calendario
-        window.location.href = 'calendario.html';  // Redirige al calendario
-    } else {
-        alert('Por favor, complete todos los campos.');
-    }
-}
-
-// Función para eliminar los datos del usuario
-function eliminarDatosUsuario() {
-    if (confirm('¿Estás seguro de que quieres eliminar todos los datos?')) {
-        localStorage.removeItem('usuario');
-        alert('Datos eliminados correctamente');
-        
-        // Limpiar los campos del formulario
-        document.getElementById('formUsuario').reset();
-    }
-}
-
-// Función para cargar los datos del usuario desde LocalStorage
-function cargarDatosUsuario() {
-    const datosUsuario = JSON.parse(localStorage.getItem('usuario'));
+// Función para mostrar notificaciones visuales
+function mostrarNotificacion(mensaje, tipo = 'success') {
+    const contenedor = document.createElement('div');
+    contenedor.className = `alert alert-${tipo} alert-dismissible fade show fixed-top m-3`;
+    contenedor.role = 'alert';
+    contenedor.innerHTML = `
+        ${mensaje}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    `;
     
-    if (datosUsuario) {
-        document.getElementById('nombre').value = datosUsuario.nombre;
-        document.getElementById('genero').value = datosUsuario.genero;
-        document.getElementById('altura').value = datosUsuario.altura;
-        document.getElementById('peso').value = datosUsuario.peso;
+    document.body.prepend(contenedor);
+    
+    // Eliminar automáticamente después de 3 segundos
+    setTimeout(() => {
+        contenedor.remove();
+    }, 3000);
+}
 
-        // Si los datos ya están guardados, redirigir al calendario
-        window.location.href = 'calendario.html';
+// Validación mejorada de datos
+function validarDatosUsuario(usuario) {
+    const errores = [];
+    
+    if (!usuario.nombre || usuario.nombre.trim().length < 2) {
+        errores.push('El nombre debe tener al menos 2 caracteres');
+    }
+    
+    if (!usuario.altura || usuario.altura < 140 || usuario.altura > 220) {
+        errores.push('La altura debe estar entre 140 y 220 cm');
+    }
+    
+    if (!usuario.peso || usuario.peso < 40 || usuario.peso > 200) {
+        errores.push('El peso debe estar entre 40 y 200 kg');
+    }
+    
+    return errores;
+}
+
+// Guardar datos con validación mejorada
+function guardarDatosUsuario(evento) {
+    evento.preventDefault();
+    
+    const usuario = {
+        nombre: document.getElementById('nombre').value.trim(),
+        genero: document.getElementById('genero').value,
+        altura: parseInt(document.getElementById('altura').value),
+        peso: parseInt(document.getElementById('peso').value)
+    };
+    
+    const errores = validarDatosUsuario(usuario);
+    
+    if (errores.length > 0) {
+        errores.forEach(error => mostrarNotificacion(error, 'danger'));
+        return;
+    }
+    
+    try {
+        localStorage.setItem('usuarioConfig', JSON.stringify(usuario));
+        mostrarNotificacion('Datos guardados correctamente! Redirigiendo...');
+        
+        // Redirigir después de 1.5 segundos
+        setTimeout(() => {
+            window.location.href = 'calendario.html';
+        }, 1500);
+        
+    } catch (error) {
+        mostrarNotificacion('Error al guardar los datos', 'danger');
+        console.error('Error de almacenamiento:', error);
     }
 }
 
-function confirmarSalir() {
-    const confirmacion = confirm("¿Seguro que deseas eliminar todos tus datos, incluyendo las rutinas?");
-    if (confirmacion) {
-        // Eliminar los datos del usuario
-        localStorage.removeItem('usuario');
+// Cargar datos con manejo de errores
+function cargarDatosUsuario() {
+    try {
+        const datos = localStorage.getItem('usuarioConfig');
+        if (!datos) return null;
         
-        // Eliminar las rutinas
-        localStorage.removeItem('entrenamientos');
+        const usuario = JSON.parse(datos);
         
-        // Redirigir al formulario de usuario (index.html)
-        window.location.href = "index.html";  // Redirección a la página de inicio
+        // Validar datos existentes
+        const errores = validarDatosUsuario(usuario);
+        if (errores.length > 0) {
+            localStorage.removeItem('usuarioConfig');
+            return null;
+        }
+        
+        return usuario;
+        
+    } catch (error) {
+        console.error('Error cargando datos:', error);
+        return null;
     }
 }
 
+// Eliminar datos con confirmación
+function eliminarDatosUsuario() {
+    if (!confirm('¿Estás seguro de eliminar tus datos?')) return;
+    
+    try {
+        localStorage.removeItem('usuarioConfig');
+        document.getElementById('formUsuario').reset();
+        mostrarNotificacion('Datos eliminados correctamente', 'warning');
+    } catch (error) {
+        mostrarNotificacion('Error al eliminar los datos', 'danger');
+        console.error('Error eliminando datos:', error);
+    }
+}
 
-
-
-// Verificar si los datos ya están guardados al cargar la página
-window.onload = function() {
-    cargarDatosUsuario();
-
-    // Agregar el evento al formulario para guardar los datos
-    document.getElementById('formUsuario').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevenir el envío del formulario
-        guardarDatosUsuario();
-    });
-};
+// Inicialización al cargar la página
+document.addEventListener('DOMContentLoaded', () => {
+    const usuario = cargarDatosUsuario();
+    
+    if (usuario) {
+        document.getElementById('nombre').value = usuario.nombre;
+        document.getElementById('genero').value = usuario.genero;
+        document.getElementById('altura').value = usuario.altura;
+        document.getElementById('peso').value = usuario.peso;
+    }
+    
+    // Configurar eventos
+    document.getElementById('formUsuario').addEventListener('submit', guardarDatosUsuario);
+    document.querySelector('.btn-danger').addEventListener('click', eliminarDatosUsuario);
+});

@@ -1,0 +1,3 @@
+Categoria,Ejercicio,Intensidad,Equipo_Requerido,Grupo_Muscular_Primario,Grupo_Muscular_Secundario,Dificultad,Duracion_Estimada_x_Set(min),Quemado_Calorico_x_Minuto,Impacto,Descripcion_Corta,Alternativas_Equipo,Tipo_Ejercicio,Sets_Recomendados,Reps_Recomendadas,Requerimiento_Movilidad,Estabilidad_Requerida
+Full Body,Burpees,Media,Ninguno,Full Body,General,Intermedio,2,8.5,2,"Ejercicio completo de cuerpo",Ninguno,Cardio,4,"15-20",Alta,Alta
+Tren Superior,Flexiones,Media,Ninguno,Pectoral,Triceps,Principiante,2,4.5,1,"Flexión clásica",Mochila,Strength,3,"12-15",Baja,Media

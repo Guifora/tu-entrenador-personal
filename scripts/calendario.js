@@ -157,3 +157,20 @@ document.addEventListener("DOMContentLoaded", function () {
         bienvenidaElement.textContent = "¡Bienvenido a tu calendario!";
     }
 });
+
+// Agregar al final del archivo
+function mostrarEntrenamientosDia(fecha) {
+    const entrenamientos = JSON.parse(localStorage.getItem('entrenamientos')) || [];
+    const entrenamientosDia = entrenamientos.filter(e => e.fecha === fecha);
+    
+    if (entrenamientosDia.length > 0) {
+        const dialog = document.createElement('div');
+        dialog.className = 'entrenamiento-modal';
+        dialog.innerHTML = `
+            <h3>Entrenamientos para ${fecha}</h3>
+            ${entrenamientosDia.map(e => `<p>${e.nombre} (${e.duracion} min)</p>`).join('')}
+            <button onclick="this.parentElement.remove()">Cerrar</button>
+        `;
+        document.body.appendChild(dialog);
+    }
+}

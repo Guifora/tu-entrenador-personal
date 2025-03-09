@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleccionar Entrenamiento</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Enlazamos con el archivo de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<!-- Contenedor principal con fondo blanco y sombra -->
 <div class="container mt-5">
-    <!-- Estilo para el mensaje de bienvenida -->
     <div id="bienvenida" class="mb-4">
         ¿Qué entrenamiento quieres realizar?
     </div>
 
-    <p id="diaSeleccionado" class="text-center"></p>
+    <!-- Selector de dificultad faltante -->
+    <div class="mb-3">
+        <label class="form-label">Nivel de Dificultad</label>
+        <select id="nivelDificultad" class="form-select">
+            <option value="Principiante">Principiante</option>
+            <option value="Intermedio">Intermedio</option>
+            <option value="Avanzado">Avanzado</option>
+        </select>
+    </div>
 
-    <!-- Formulario para seleccionar parte del cuerpo y duración -->
+    <div class="mb-3">
+        <label class="form-label">Intensidad</label>
+        <select id="intensidad" class="form-select">
+            <option value="Baja">Baja</option>
+            <option value="Media" selected>Media</option>
+            <option value="Alta">Alta</option>
+        </select>
+    </div>
+
     <div class="mb-3">
         <label class="form-label">Parte del cuerpo</label>
         <select id="parteCuerpo" class="form-select">
@@ -39,24 +53,10 @@
 
     <button id="buscarEntrenamiento" class="btn btn-primary w-100 mb-4">Buscar Entrenamiento</button>
 
-    <!-- Contenedor donde se mostrarán las opciones de entrenamiento -->
     <div id="opcionesEntrenamiento" class="mt-4"></div>
 </div>
 
-<script>
-    document.getElementById("buscarEntrenamiento").addEventListener("click", function() {
-        let duracion = document.getElementById("duracion").value;
-        let errorMensaje = document.getElementById("errorDuracion");
-
-        if (duracion < 15 || duracion > 120) {
-            errorMensaje.style.display = "block"; // Muestra el mensaje de error
-        } else {
-            errorMensaje.style.display = "none"; // Oculta el mensaje si la duración es válida
-            // Aquí puedes continuar con la lógica para buscar entrenamientos
-            console.log("Buscando entrenamientos para " + duracion + " minutos.");
-        }
-    });
-</script>
+<!-- Eliminar todo el script duplicado -->
 <script src="scripts/seleccion.js"></script>
 </body>
 </html>
